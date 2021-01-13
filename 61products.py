@@ -7,8 +7,14 @@ while True:#while迴圈通常用在不確定幾次的迴圈
 	products.append([name, price])#將每1小組的p清單裝入products大清單中
 
 print(products )#會印出[['01','02'], ['11', '12']]有2個[]
+for p in products:
+	print(p[0], '的價格是', p[1])
+
+	#print(p[1])==>印出清單中的第2個欄位-價格
 
 products[0][1]#找出第1節車節中的第2個小座位的值
+
+
 
 
 
